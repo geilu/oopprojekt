@@ -3,9 +3,9 @@ public class Kohv {
     private String nimi;
     private String[] koostisosad;
 
-    Kohv(double hind, String nimi, String[] koostisosad) {
-        this.hind = hind;
+    Kohv(String nimi, double hind, String[] koostisosad) {
         this.nimi = nimi;
+        this.hind = hind;
         this.koostisosad = koostisosad;
     }
 
@@ -26,6 +26,7 @@ public class Kohv {
     }
 
     public String toString() {
-        return nimi + ", " + hind + " eurot.";
+        return nimi  + hind + " eurot";
     }
+
 }
