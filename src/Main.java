@@ -10,6 +10,7 @@ public class Main {
         Saiake kohvisai = new Saiake("Kohvisai", 1.5);
         Saiake moskvasai = new Saiake("Moskvasai", 1.8);
 
+        //Loob listid ja lisab tooted nendesse
         ArrayList<Kohv> kohvimenuu = new ArrayList<>();
         ArrayList<Saiake> saiamenuu = new ArrayList<>();
         kohvimenuu.add(espresso);
@@ -50,13 +51,18 @@ public class Main {
         KliendiRaha klient = new KliendiRaha();
         double kliendiRaha = klient.rahakott(kohvimenuu, saiamenuu);
         Random r = new Random();
+
+        //Valib suvalise joogi ja saia
         int kohv = r.nextInt(kohvimenuu.size());
         int sai = r.nextInt(saiamenuu.size());
+        //Leiab selle kohvi ja saia ning jätab selle nime ja hinna meelde
         String randomKohv = kohvimenuu.get(kohv).getNimi();
         double kohviHind = kohvimenuu.get(kohv).getHind();
         String randomSai = saiamenuu.get(sai).getNimi();
         double saiaHind = saiamenuu.get(sai).getHind();
+
         double tellimuseHind = kohviHind + saiaHind;
+
         System.out.println("Klient soovib: 1 " + randomSai + " ja 1 " + randomKohv);
         System.out.println("See on kokku " + tellimuseHind + " eurot");
 

@@ -6,34 +6,21 @@ public class KliendiRaha {
 
     public double rahakott(ArrayList<Kohv> kohvimenuu, ArrayList<Saiake> saiamenuu){
         double maxKohv = 0;
-        double minKohv = Double.MAX_VALUE;
-        for (Kohv kohv : kohvimenuu) {
+        for (Kohv kohv : kohvimenuu) { //Leiab menüüst kõige kallima kohvi
             if (kohv.getHind() > maxKohv) {
                 maxKohv = kohv.getHind();
             }
-            if (kohv.getHind() < minKohv) {
-                minKohv = kohv.getHind();
-            }
         }
         double maxSai = 0;
-        double minSai = Double.MAX_VALUE;
-        for (Saiake sai : saiamenuu) {
+        for (Saiake sai : saiamenuu) { //Leiab menüüst kõige kallima saia
             if (sai.getHind() > maxSai) {
                     maxSai = sai.getHind();
             }
-            if (sai.getHind() < minSai) {
-                minSai = sai.getHind();
-            }
         }
-        double maxsumma = maxKohv + maxSai + 3;
-        double minsumma = minKohv + minSai;
-
-        if (minsumma > 1){
-            minsumma -= 1;
-        }
+        double maxsumma = maxKohv + maxSai + 3; //Lisasin 3, et õnnelike klientide hulk oleks natuke suurem
 
         Random r = new Random();
-        raha = r.nextDouble() * maxsumma;
+        raha = r.nextDouble() * maxsumma; //Kliendil on raha vahemikus 0 kuni maxsumma
 
         return raha;
     }
