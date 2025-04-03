@@ -17,7 +17,7 @@ public class KliendiRaha {
                     maxSai = sai.getHind();
             }
         }
-        double maxsumma = maxKohv + maxSai + 3; //Lisasin 3, et õnnelike klientide hulk oleks natuke suurem
+        double maxsumma = maxKohv + maxSai + 5; //Lisasin 5, et õnnelike klientide hulk oleks natuke suurem
 
         Random r = new Random();
         raha = r.nextDouble() * maxsumma; //Kliendil on raha vahemikus 0 kuni maxsumma

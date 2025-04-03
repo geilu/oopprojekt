@@ -19,7 +19,7 @@ public class Saiake {
 
     @Override
     public String toString() {
-        return nimi + hind + " eurot";
+        return nimi + " " + hind + " eurot";
     }
 
 }
