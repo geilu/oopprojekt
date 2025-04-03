@@ -43,9 +43,9 @@ Selles meetodis kontrollitakse, kas kasutaja valitud koostisosad kattuvad mingi 
 ## Projekti protsessi kirjeldus
 Kõigepealt otsustasime põhiidee, et teeme kohviku, kus on erinevad kohvijookide ja saiakeste menüü. Seejärel jagasime ülesanded ära ning igaüks töötas oma osa kallal.
 ### Rühmaliikmete panused
-Geilyn tegi kohvi klassi ja põhiklassis lõi tema erinevaid kohvijooke ning toopaev meetodis lisas kohvijookide tegemise protsessi. Ajakulu orienteeruvalt 2-3h.
+Geilyn tegi kohvi klassi ja põhiklassis lõi tema erinevaid kohvijooke ning toopaev meetodis lisas kohvijookide tegemise protsessi. Ajakulu orienteeruvalt 3-5h.
 
-Sandra tegi saiakeste ja kliendi rahakoti klassid ning põhiklassis lõi tema erinevaid saiakesi, toopaev meetodis lisas tema klientide rahakoti ja soovide genereerimise ja kontrolli, kas klientidel on piisavalt raha soovitud toodete jaoks. Ajakulu orienteeruvalt 2-3h.
+Sandra tegi saiakeste ja kliendi rahakoti klassid ning põhiklassis lõi tema erinevaid saiakesi, toopaev meetodis lisas tema klientide rahakoti ja soovide genereerimise ja kontrolli, kas klientidel on piisavalt raha soovitud toodete jaoks. Ajakulu orienteeruvalt 3-5h.
 ### Probleemid
 Suuremaid probleeme ei tekkinud, kuid tekkisid mõned väiksemad vead, näiteks see, kui suur peaks kliendi rahakott olema võrreldes toodete hindadega, et ei oleks liigselt õnnetuid kliente selletõttu, et neil toodete jaoks piisavalt raha pole.
 Samuti läks natuke aega, et saada kohvijookide tegemise protsess õigeks, et see töötaks nagu soovisime ning kontrolliks õigesti, mis kohv tehtud on.
